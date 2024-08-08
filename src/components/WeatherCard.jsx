@@ -27,7 +27,7 @@ export default function WeatherCard({ city }) {
     <div className='weather-card my-5 py-4'>
       <div className='flex flex-col justify-center items-center mx-auto'>
         <div className='weather-data border-2 rounded-lg px-10 py-10 shadow-xl'>
-          <h2 className='text-center text-2xl'>Current Weather</h2>
+          <h2 className='text-center text-2xl font-semibold'>Current Weather</h2>
           <div className='flex font-semibold temprature flex-col justify-center items-center'>
             <div className='flex temp text-center justify-center items-center'>
               <p className='text-center text-5xl'>{Math.floor(current.temp_c)}</p>
