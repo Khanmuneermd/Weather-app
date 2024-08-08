@@ -24,7 +24,7 @@ export default function Astronomy({ city}) {
 
   return (
     <div className='flex astronomyCard py-4'>
-      <div className='astronomyData border-2 px-16 py-16 rounded-lg shadow-lg mx-auto'>
+      <div className='astronomyData border-2 px-16 py-16 rounded-lg shadow-lg mx-4'>
         <h2 className='text-2xl text-center font-semibold'>Astronomy</h2>
         <div className='location flex py-1'>
           <h2 className='text-4xl font font-semibold'>{location.name},</h2>
